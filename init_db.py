@@ -6,7 +6,7 @@ c = conn.cursor()
 
 # テーブル作成
 c.execute("create table user(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, password TEXT)")
-c.execute("create table bbs(id INTEGER PRIMARY KEY AUTOINCREMENT, userid INTEGER, comment TEXT)")
+c.execute("create table bbs(id INTEGER PRIMARY KEY AUTOINCREMENT, userid INTEGER, comment TEXT, time INTEGER)")
 
 
 # 確定
